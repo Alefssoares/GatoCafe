@@ -1,0 +1,144 @@
+.cart-page {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Fundo branco com 90% de opacidade */
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-items {
+  margin-bottom: 20px;
+}
+
+.cart-items h3 {
+  margin-top: 0;
+}
+
+.cart-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinhamento vertical */
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  background: #ffffff; /* Fundo branco */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.cart-items li .item-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cart-items li .item-info span {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.cart-items li .item-info .quantity {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.cart-items button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.cart-items button:hover {
+  background-color: #e64a19;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.checkout-form div {
+  margin-bottom: 15px;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.checkout-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.checkout-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+.checkout-form button:hover {
+  background-color: #388e3c;
+}
+
+.total-section {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.total-section h3 {
+  margin: 0;
+}
+
+.total-section p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.back-to-menu {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.back-to-menu:hover {
+  background-color: #1976d2;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
